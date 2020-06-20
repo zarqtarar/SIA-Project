@@ -92,7 +92,19 @@ if(isset($_GET['lmsg']) && $_GET['lmsg'] == true)
           </div>
           <button class="btn btn-primary btn-block" type="submit" name="login">Login</button>
         </form>
-       
+<div style="font-size:12px;margin-top:5px;">
+			<p>Following are the 4 different users with different rights. Use below logins to check their rights</p>
+			
+			<table width="80%">
+				<tr><th>User</th><th>Password</th></tr>
+			   <tr><td>zarqtarar@example.com</td><td>admin123 </td></tr>
+			   <tr><td>ahsan@example.com</td><td>ahsan123 </td></tr>
+			   <tr><td>Bilal@example.com</td><td>sarah123 </td></tr>
+			   <tr><td>Hassam@example.com </td><td>salman123</td></tr>
+		   </table>
+	   </div>       
+
+
       </div>
     </div>
   </div>
